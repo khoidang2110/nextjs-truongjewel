@@ -1,0 +1,64 @@
+.fortyDeg {
+  width: 181px;
+  height: auto;
+  transform: rotate(347.63108092379775deg);
+  --comp-rotate-z: 347.63108092379775deg;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  left: -150px;
+  top: 20px;
+}
+.menuButton{
+  position: fixed;
+  z-index: 999;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.logoContainer{
+  position: static;
+    height: 64px;
+    width: 0;
+    margin: 0px 0px 0px calc((100% - 980px)* 0.5);
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+
+  
+}
+.tabActive{
+color:#b23016;
+font-weight:500
+}
+.tabInActive{
+
+opacity: 0.4;
+font-weight:200
+}
+.tabInActive:hover{
+  color:#b23016;
+  opacity: 0.8;
+}
+.headerUl{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fortyDeg{
+    left: -150px;
+  }
+  }
+  @media screen and (max-width: 767px) {
+    .fortyDeg{
+      left: 50px;
+    }
+    .headerUl{
+      display: flex;
+      justify-content: space-around;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 16px;
+    }
+  }
