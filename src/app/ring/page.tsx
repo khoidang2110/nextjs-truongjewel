@@ -11,7 +11,7 @@ export default function Ring() {
  
  <div className='pb-5 text-lg  text-gray-400'>Nhẫn:</div>
 
- <GalleryList projects ={projects} filterType='nhan'/>
+ <GalleryList projects ={projects} filterType='nhẫn'/>
  
    
     </main>

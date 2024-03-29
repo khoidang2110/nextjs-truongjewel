@@ -10,7 +10,7 @@ export default function Home() {
  <div className='pb-5 text-lg  text-gray-400'> Vòng tay:</div>
 
 
-<GalleryList projects ={projects} filterType='vongTay'/>
+<GalleryList projects ={projects} filterType='vòng tay'/>
  
    
     </main>
