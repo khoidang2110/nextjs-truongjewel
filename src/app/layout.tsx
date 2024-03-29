@@ -34,9 +34,14 @@ export default function RootLayout({
 
       </head>
       <body className='sawarabi-gothic-regular bg-white'>
-        <Header />
+        <div className="pb-20">
+        <Header/>
+        </div>
+       
+      <div className="pt-10">
+      {children}
+      </div>
       
-        {children}
     
      
         <Footer />

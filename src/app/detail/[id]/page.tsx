@@ -12,10 +12,10 @@ console.log(params.id)
 const currentAlbum = projects[Number(params.id)-1]
   return (
     <section >
-      <p className=' ml-10 capitalize opacity-70'>{currentAlbum.type}:
+      <p className=' ml-10 capitalize opacity-70 fixed pt-10'>{currentAlbum.type}:
 
       </p>
-      <div className='text-center'>
+      <div className='text-center pt-20'>
       <h1 className='text-2xl pb-10'>
 {currentAlbum.title}</h1>
       <p>{currentAlbum.description}</p>
