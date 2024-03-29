@@ -11,7 +11,7 @@ export default function Pendant() {
  
  <div className='pb-5 text-lg  text-gray-400'>Mặt dây chuyền:</div>
 
- <GalleryList projects ={projects} filterType='exhibition'/>
+ <GalleryList projects ={projects} filterType='matDayChuyen'/>
  
    
     </main>

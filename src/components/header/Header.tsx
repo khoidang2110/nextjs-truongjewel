@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Menu from "../menu/Menu";
+
 const Header: React.FC = () => {
   const pathname = usePathname();
   console.log(pathname);
@@ -25,7 +26,7 @@ const Header: React.FC = () => {
       <div className="flex justify-center bg-white pt-10">
         <div className={styles.logoContainer}>
           <div className={styles.fortyDeg}>
-            <h1 className="text-center">TRƯỜNG JEWEL</h1>
+            <h1 className="text-center" >TRƯỜNG JEWEL</h1>
           </div>
         </div>
       </div>

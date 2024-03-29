@@ -28,67 +28,61 @@ export const projects: IProject []= [
     {
       
         id: 2,
-        type:'commercial',
-        title: "album cop",
+        type:'vongTay',
+        title: "Vòng tay mẫu 1",
         description:
-          "Nemo enim ip",
+          "Được làm thủ công ",
         image:[
-           '/images/tag1/hinh11.jpg',
-         '/images/tag1/hinh12.jpg'
-        ,'/images/tag1/hinh13.jpg'
+           '/images/tag2/hinh11.jpg',
+         '/images/tag2/hinh12.jpg'
+        ,'/images/tag2/hinh13.jpg'
           
         ]
       },
       {
         id: 3,
-        type:'commercial',
-        title: "every haft bean collab",
+        type:'vongTay',
+        title: "Vòng tay mẫu 2",
      
         description:
-          "squam est, qui dolorem.",
+          "Được làm thủ công ",
     
           image:[
-            '/images/tag1/hinh21.jpg',
-          '/images/tag1/hinh22.png',
-          '/images/tag1/hinh23.jpg',
-          '/images/tag1/hinh24.jpg',
-          '/images/tag1/hinh25.png',
-          '/images/tag1/hinh26.png',
+            '/images/tag2/hinh21.jpg',
+          '/images/tag2/hinh22.png',
+          '/images/tag2/hinh23.jpg'
            
          ]
       },
       {
         id: 4,
-        type:'commercial',
-        title: "Frog",
+        type:'vongTay',
+        title: "Vòng tay mẫu 3",
         
         description:
-          "isquam est, qui dolorem.",
+        "Được làm thủ công ",
 
           image:[
-            '/images/tag1/hinh31.jpg',
-          '/images/tag1/hinh32.jpg',
-          '/images/tag1/hinh33.jpg',
-          '/images/tag1/hinh34.jpg',
-          '/images/tag1/hinh35.jpg',
+            '/images/tag2/hinh31.jpg',
+          '/images/tag2/hinh32.jpg',
+          
          
            
          ]
       },
       {
         id: 5,
-        type:'commercial',
-        title: "Leaf",
+        type:'nhan',
+        title: "Nhẫn đá mẫu 1",
         
         description:
-          " eos qui rationet, qui dolorem.",
+        "Được làm thủ công ",
 
           image:[
-            '/images/tag1/hinh41.jpg',
-          '/images/tag1/hinh42.jpg',
-          '/images/tag1/hinh43.jpg',
-          '/images/tag1/hinh44.jpg',
-          '/images/tag1/hinh45.jpg',
+            '/images/tag2/hinh41.jpg',
+          '/images/tag2/hinh42.jpg',
+          '/images/tag2/hinh43.jpg',
+          '/images/tag2/hinh44.jpg',
          
            
          ]
@@ -96,17 +90,109 @@ export const projects: IProject []= [
       ,
       {
         id: 6,
-        type:'exhibition',
-        title: "NEAT",
+        type:'nhan',
+        title: "Nhẫn đá mẫu 2",
         
         description:
-          "Nemo enim ipsam voluptatem qui.",
+        "Được làm thủ công ",
 
           image:[
-            '/images/tag1/hinh6.png',
+            '/images/tag2/hinh51.jpg',
           
          
            
          ]
       }
+      ,
+      {
+        id: 7,
+        type:'nhan',
+        title: "Nhẫn đá mẫu 3",
+        
+        description:
+        "Được làm thủ công ",
+
+          image:[
+            '/images/tag2/hinh61.jpg',
+            '/images/tag2/hinh62.jpg',
+         
+           
+         ]
+      }
+      ,
+      {
+        id: 8,
+        type:'matDayChuyen',
+        title: "Mặt dây chuyền mẫu 1",
+        
+        description:
+        "Được làm thủ công ",
+
+          image:[
+            '/images/tag2/hinh71.jpg',
+            '/images/tag2/hinh72.jpg',
+            '/images/tag2/hinh73.jpg',
+           
+         ]
+      }
+      ,
+      {
+        id: 9,
+        type:'matDayChuyen',
+        title: "Mặt dây chuyền mẫu 2",
+        
+        description:
+        "Được làm thủ công ",
+
+          image:[
+            '/images/tag2/hinh81.jpg',
+        
+           
+         ]
+      }
+      ,
+      {
+        id: 10,
+        type:'matDayChuyen',
+        title: "Mặt dây chuyền mẫu 3",
+        
+        description:
+        "Được làm thủ công ",
+
+          image:[
+            '/images/tag2/hinh91.jpg',
+         
+           
+         ]
+      }
+      ,
+      {
+        id: 11,
+        type:'matDayChuyen',
+        title: "Mặt dây chuyền mẫu 4",
+        
+        description:
+        "Được làm thủ công ",
+
+          image:[
+            '/images/tag2/hinh101.jpg',
+           
+           
+         ]
+      }      ,
+      {
+        id: 12,
+        type:'matDayChuyen',
+        title: "Mặt dây chuyền mẫu 5",
+        
+        description:
+        "Được làm thủ công ",
+
+          image:[
+            '/images/tag2/hinh111.jpg',
+           
+           
+         ]
+      }
+      
 ]

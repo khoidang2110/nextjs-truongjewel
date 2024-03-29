@@ -15,12 +15,15 @@ const currentAlbum = projects[Number(params.id)-1]
       <p className=' ml-10 capitalize opacity-70 fixed pt-10'>{currentAlbum.type}:
 
       </p>
-      <div className='text-center pt-20'>
-      <h1 className='text-2xl pb-10'>
+      <div className='text-center pt-20 ' >
+        <div className='fixed bg-white w-full'>
+        <h1 className='text-2xl  '>
 {currentAlbum.title}</h1>
-      <p>{currentAlbum.description}</p>
+      <p className='pl-10'>{currentAlbum.description}</p>
+        </div>
+
       
-      <Album projects={currentAlbum} direct='flex-col'/>
+      <Album projects={currentAlbum} direct='flex-col pt-20'/>
       </div>
 
     </section>

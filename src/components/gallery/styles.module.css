@@ -73,11 +73,16 @@
 .text {
   background-color: #041e35;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
-  padding: 16px 32px;
+  padding: 8px 8px;
+  
   border-radius: 8px;
   border: 0px solid; 
+}
+.imgBorder{
+  border: 0px solid ;
+  border-radius: 8px;
 }
 .galleryListSection{
 
