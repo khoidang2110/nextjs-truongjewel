@@ -7,7 +7,7 @@ export const projects: IProject []= [
         id: 1,
         type:'archive',
         title: "Archive",
-        
+        link:'/',
         description:
           " quisquam est, qui dolorem.",
 
@@ -28,6 +28,7 @@ export const projects: IProject []= [
     {
       
         id: 2,
+        link:'/',
         type:'vòng tay',
         title: "Vòng tay mẫu 1",
         description:
@@ -41,6 +42,7 @@ export const projects: IProject []= [
       },
       {
         id: 3,
+        link:'/',
         type:'vòng tay',
         title: "Vòng tay mẫu 2",
      
@@ -56,6 +58,7 @@ export const projects: IProject []= [
       },
       {
         id: 4,
+        link:'/',
         type:'vòng tay',
         title: "Vòng tay mẫu 3",
         
@@ -72,6 +75,7 @@ export const projects: IProject []= [
       },
       {
         id: 5,
+        link:'/ring',
         type:'nhẫn',
         title: "Nhẫn đá mẫu 1",
         
@@ -90,6 +94,7 @@ export const projects: IProject []= [
       ,
       {
         id: 6,
+        link:'/ring',
         type:'nhẫn',
         title: "Nhẫn đá mẫu 2",
         
@@ -106,6 +111,7 @@ export const projects: IProject []= [
       ,
       {
         id: 7,
+        link:'/ring',
         type:'nhẫn',
         title: "Nhẫn đá mẫu 3",
         
@@ -122,6 +128,7 @@ export const projects: IProject []= [
       ,
       {
         id: 8,
+        link:'/pendant',
         type:'mặt dây chuyền',
         title: "Mặt dây chuyền mẫu 1",
         
@@ -138,6 +145,7 @@ export const projects: IProject []= [
       ,
       {
         id: 9,
+        link:'/pendant',
         type:'mặt dây chuyền',
         title: "Mặt dây chuyền mẫu 2",
         
@@ -153,6 +161,7 @@ export const projects: IProject []= [
       ,
       {
         id: 10,
+        link:'/pendant',
         type:'mặt dây chuyền',
         title: "Mặt dây chuyền mẫu 3",
         
@@ -168,6 +177,7 @@ export const projects: IProject []= [
       ,
       {
         id: 11,
+        link:'/pendant',
         type:'mặt dây chuyền',
         title: "Mặt dây chuyền mẫu 4",
         
@@ -182,6 +192,7 @@ export const projects: IProject []= [
       }      ,
       {
         id: 12,
+        link:'/pendant',
         type:'mặt dây chuyền',
         title: "Mặt dây chuyền mẫu 5",
         
