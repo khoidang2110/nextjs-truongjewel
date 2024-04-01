@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       <div className="flex justify-center bg-white pt-10">
         <div className={styles.logoContainer}>
           <div className={styles.fortyDeg}>
-            <h1 className="text-center" >TRƯỜNG JEWEL</h1>
+            <h1 className="text-center font-serif" >TRƯỜNG JEWEL</h1>
           </div>
         </div>
       </div>
